@@ -1,0 +1,2 @@
+smic_corpus = ""
+serverurl = ""

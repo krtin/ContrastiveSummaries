@@ -1,0 +1,103 @@
+Number of Real Summaries 11490
+Number of Sources 11490
+Total data found 564852
+Index(['ruleid', 'smic', 'sourceid', 'smic_prob', 'idx', 'smc', 'smc_prob'], dtype='object')
+
+##########################
+Overall Statistics
+###########################
+Number of Correct Summaries 11488
+                          AMrush
+Accepted              20915.0000
+Generated            564852.0000
+Percentage Accepted       3.7027
+Atleast 1              8070.0000
+Percentage Atleast 1     70.2472
+
+##########################
+Rule wise Statistics
+###########################
+Percentage of Accepted SMICs
+   AMrush
+1  1.2255
+2  2.1638
+3  1.0298
+4  2.1575
+5  5.6897
+6  7.9643
+7  5.1136
+8  7.4117
+
+Percentage Contribution
+   AMrush
+1 10.1267
+2  2.1038
+3  2.7588
+4  2.7636
+5 47.6213
+6  8.7019
+7 14.0426
+8 11.8814
+
+Percentage of SMC with at least 1 accepted SMIC
+   AMrush
+1 14.6926
+2  3.9144
+3  4.6808
+4  5.2372
+5 48.2329
+6 14.6207
+7 21.1718
+8 18.0013
+
+##########################
+Bucketing
+###########################
+
+Percentage of SMCs with SMIC count bucketing
+               AMrush
+accepted_smic        
+0.0000        29.7528
+1.0000        24.8694
+2.0000        17.7315
+3.0000        11.4641
+4.0000         6.7810
+5.0000         3.8040
+6.0000         2.4547
+7.0000         1.3405
+8.0000         0.8269
+9.0000         0.4004
+10.0000        0.2002
+11.0000        0.1219
+12.0000        0.0958
+13.0000        0.0261
+14.0000        0.0522
+15.0000        0.0261
+16.0000        0.0261
+17.0000        0.0087
+19.0000        0.0087
+20.0000        0.0087
+
+Percentage of Accepted SMICs with SMIC count bucketing
+               AMrush
+accepted_smic        
+0.0000         0.0000
+1.0000         2.0330
+2.0000         4.0598
+3.0000         6.0869
+4.0000         8.1383
+5.0000        10.1402
+6.0000        12.1955
+7.0000        14.2048
+8.0000        16.2324
+9.0000        18.5152
+10.0000       20.4991
+11.0000       22.4163
+12.0000       24.3094
+13.0000       26.0000
+14.0000       29.6820
+15.0000       30.6122
+16.0000       41.7391
+17.0000       35.4167
+19.0000       39.5833
+20.0000       39.2157

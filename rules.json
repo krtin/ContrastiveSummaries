@@ -1,0 +1,14 @@
+[
+  {"id":1,"from":"SMC","match":"(^NN .) or (^NNS .), (^NNP (. (/det (. .))))", "name":"Noun Switching", "hardmatch":"0"},
+  {"id":2,"from":"SMC","match":"(. (. (|. (^IN .))))", "name":"Preposition Switching", "hardmatch":"1"},
+  {"id":3,"from":"SMC","match":"(^VBP .) or (^VBG .) or (^VBZ .) or (^VBN .) or (^VBP .) or (^VBD .) or (^VB .)", "name":"Verb Switching", "hardmatch":"0"},
+  {"id":4,"from":"SMC","match":"(^JJ .) or (^JJR .) or (^JJS .)", "name":"Adjective Switching", "hardmatch":"0"},
+  {"id":5,"from":"GOLD","match":"(^NN .) or (^NNS .), (^NNP (. (/det (. .))))", "name":"Noun Switching", "hardmatch":"0"},
+  {"id":6,"from":"GOLD","match":"(. (. (|. (^IN .))))", "name":"Preposition Switching", "hardmatch":"1"},
+  {"id":7,"from":"GOLD","match":"(^VBP .) or (^VBG .) or (^VBZ .) or (^VBN .) or (^VBP .) or (^VBD .) or (^VB .)", "name":"Verb Switching", "hardmatch":"0"},
+  {"id":8,"from":"GOLD","match":"(^JJ .) or (^JJR .) or (^JJS .)", "name":"Adjective Switching", "hardmatch":"0"},
+  {"id":9,"from":"SOURCE","match":"(^NN .) or (^NNS .), (^NNP (. (/det (. .))))", "name":"Noun Switching", "hardmatch":"0"},
+  {"id":10,"from":"SOURCE","match":"(. (. (|. (^IN .))))", "name":"Preposition Switching", "hardmatch":"1"},
+  {"id":11,"from":"SOURCE","match":"(^VBP .) or (^VBG .) or (^VBZ .) or (^VBN .) or (^VBP .) or (^VBD .) or (^VB .)", "name":"Verb Switching", "hardmatch":"0"},
+  {"id":12,"from":"SOURCE","match":"(^JJ .) or (^JJR .) or (^JJS .)", "name":"Adjective Switching", "hardmatch":"0"}
+]
